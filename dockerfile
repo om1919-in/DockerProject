@@ -1,7 +1,7 @@
 FROM node:alpine
 WORKDIR /app
-COPY package*.json ./
+COPY main/package*.json ./
 RUN npm install
-COPY . .
+COPY main/ .
 EXPOSE 80
 CMD ["node", "app.js"]
