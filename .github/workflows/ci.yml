@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: omdom19/college-ci-app:latestgit add .
+          tags: omdom19/college-ci-app:latest
